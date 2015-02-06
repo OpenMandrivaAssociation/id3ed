@@ -1,6 +1,6 @@
 %define	name	id3ed
 %define	version	1.10.4
-%define release	 %mkrel 8
+%define release	 9
 
 Summary:	Edit id3v1 description tags in mpeg3 files
 Name:		%{name}
