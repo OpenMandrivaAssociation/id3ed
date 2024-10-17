@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		Sound
-URL:		http://www.azstarnet.com/~donut/programs.html
+URL:		https://www.azstarnet.com/~donut/programs.html
 Source0:	%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
