@@ -12,6 +12,11 @@ URL:		https://www.azstarnet.com/~donut/programs.html
 Source0:	%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 id3ed edits the "id3" tag for mpeg layer3 files. The mpeg3
 specification does not provide any method for storing song
